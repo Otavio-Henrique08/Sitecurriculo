@@ -1,0 +1,164 @@
+body {
+    /* cor de fundo */
+    background-color:lab(62.39% 0.63 -19.45 / 0.74);
+    background-image: url(https://getwallpapers.com/wallpaper/full/c/b/5/539434.jpg);
+    background-size: cover;
+    /* alinhamento de texto*/
+    text-align: center;
+/* trocando a fonte */
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0px;
+padding: 0px;
+}
+
+section {
+    /* cor de fundo */
+    background-color: rgba(245, 245, 245, 0.568);
+    /* largura */
+    max-width: 600px;
+    /*centralizar card */
+    margin: auto;
+     /* arrendodar bordas */
+     border-radius:20px; 
+     /* espaçamento interno */
+     padding: 2px;
+     /* espaçamento externo */
+     margin-bottom: 15px;
+    /* sombra*/
+    box-shadow: 6px 6px 10px black;
+    padding-bottom: 15px;
+    }
+
+    section:hover{
+        /* cor de fundo */
+        background-color:floralwhite;
+        /* tempo de transição*/
+        transition:1s;
+        /* tamanho da fonte - aumentar */
+        font-size: 18px;
+    }
+
+    ul{
+        /* estilo delista desativado */
+        list-style: none;
+        /* alinhar texto a esquerda */
+        text-align:  left;
+    }
+
+    #perfil1{
+        width: 200px;
+        Border-radius: 15px;
+        border: 2px solid gray;
+    }
+
+    #perfil2{
+        Width: 200px;
+        Border-radius: 15px;
+        border: 2px solid gray;
+    }
+
+    .links1{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:blue;
+    }
+
+    .links:hover{
+        font-weight: bold;
+    }
+
+    .links2{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:magenta;
+    }
+
+    .links3{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:cornflowerblue;
+    }
+
+    .links4{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:green;
+
+    }
+    .links5{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:brown;
+}   
+
+.links6{
+        /* decoração de texto desativada*/
+        text-decoration: none;
+        color:rgb(0, 0, 0);
+}   
+
+    .links1:hover, .links2:hover, .links3:hover, .links4:hover, .links5:hover{
+    font-weight: bold;
+}
+
+.menu{d: inherit;
+    background-color:rgba(0, 0, 0, 0.411);
+    /* aliamento de texto */ 
+    text-align: left;
+    /* espaçamento interno */
+    padding: 10px;
+    /* cor da letra */
+    color:rgb(243, 240, 240);
+    /* margem abaixo */
+    margin-bottom: 15px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    margin: 0px;
+}
+
+.menu ul li {
+/*colocar em linha e lado a lado*/
+display: inline-block;
+padding: 10px;
+}
+
+.menu ul li a{
+    /*cor da letra*/
+    color: rgb(255, 255, 255);
+    /* esativar traço em baixo*/
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    margin-top: 15px;
+    padding: 15px;
+    box-shadow: 6px 6px 10px black;
+}
+        
+.celular{
+    display: none;
+}
+
+/*configuração de css para celular/tablet */
+@media(max-width: 1050px){
+    .celular{
+        display: block;
+    }
+    .menu ul {
+        display: none;
+    }
+    .menu ul li{
+        width: 100%
+    }
+    ul.mostrarMenu{
+        display: inline-block;
+    }
+                                    
+}
