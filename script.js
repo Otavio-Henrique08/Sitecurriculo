@@ -6,7 +6,7 @@ var nome = "Valdecir";
 var idade = 45;
 var senha = "123";
 
-//Alterado NO GIT
+//Alterado NO GIT 
 //estrutura de condição
 if(idade > 17){
     alert("Pode votar! "+ nome);
